@@ -1,0 +1,14 @@
+## YAML Template.
+language: java
+
+jdk:
+#  - openjdk7
+  - oraclejdk8
+
+# Turning email notifications off
+notifications:
+  email: false
+
+
+# command to run tests
+script: mvn test
