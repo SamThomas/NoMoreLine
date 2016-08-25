@@ -1,6 +1,8 @@
 ## YAML Template.
 language: java
 
+os: windows
+
 jdk:
   - openjdk7
 #  - oraclejdk8
