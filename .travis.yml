@@ -1,0 +1,21 @@
+## YAML Template.
+language: java
+
+os: windows
+
+#Install dependencies
+install:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+
+jdk:
+#  - openjdk7
+  - oraclejdk8
+
+# Turning email notifications off
+notifications:
+  email: false
+
+
+# command to run tests
+script: mvn test

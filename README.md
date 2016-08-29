@@ -1,5 +1,6 @@
 NoMoreLine
 ==========
+[![Build Status](https://travis-ci.org/SamThomas/NoMoreLine.svg?branch=master)](https://travis-ci.org/SamThomas/NoMoreLine)
 
 This project consists in providing to any type of airports a queue management and crowd detection system. 
 
